@@ -4,9 +4,10 @@ Begin by reviewing the masterplan.md file and any provided drawings or wireframe
 Create a high-level project structure with appropriate directories. This should reflect the app's architecture (e.g., frontend, backend, database) and main features.
 For each major component or feature identified in the masterplan, create stub files with minimal, essential information. Include:
 a. A brief comment at the top of each file describing its purpose
-b. Placeholder import statements for likely dependencies
-c. Empty function or class declarations for key functionalities
-d. TODO comments indicating where major logic will be implemented
+b. Add a full filepath to the stubb file. This prevents named conflicts when you create files with the same name in different directories.
+c. Placeholder import statements for likely dependencies
+d. Empty function or class declarations for key functionalities
+e. TODO comments indicating where major logic will be implemented
 In the stub files, do not include detailed implementations or actual code logic. The goal is to create a skeleton that can be easily expanded in Phase 3.
 For the frontend (if applicable):
 a. Create basic component files with empty component declarations
